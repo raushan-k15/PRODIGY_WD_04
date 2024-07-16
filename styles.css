@@ -97,13 +97,17 @@ li {
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+    gap: 100px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+
 }
 
 .gallery-grid img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(237, 11, 11, 0.1);
 }
 
 form {
@@ -142,4 +146,8 @@ p2{
 #cen {
     text-align: center;
 
+}
+p4{
+    color: #ff7e5f;
+    margin-left: 500px;
 }
