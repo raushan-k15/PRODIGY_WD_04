@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #005494;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color:  #ff7e5f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: rgb(105, 12, 12);
+    border-radius: 5px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.home-content {
+    text-align: center;
+    color: rgb(34, 193, 195);
+}
+
+.home-content img {
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    border: 5px solid rgb(253, 187, 45);
+    transition: transform 0.3s;
+}
+
+.home-content img:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    color: rgb(34, 193, 195);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: rgb(253, 187, 45);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.project {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(64, 168, 16, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: rgb(180, 180, 3)
+}
+h1 {
+    font-size: 40px;
+}
+p2{
+    margin-left: 50px;
+    box-shadow: 0 4px 6px rgba(64, 168, 16, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+#box{
+    text-align: left;
+    margin-left: 30px;
+    color: black;
+
+}
+#cen {
+    text-align: center;
+
+}
